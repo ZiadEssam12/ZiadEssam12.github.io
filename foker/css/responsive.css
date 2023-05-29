@@ -1,0 +1,351 @@
+
+
+@media screen and (max-width:576px) {
+    #blog .posts .post,
+    #ourBacking .Cookies,
+    #ourBacking .Cake{
+        width:100%;
+        text-align: center;
+    }
+    
+    #home{
+        background-position: center;
+        
+    }
+    #home .home h1{
+        font-size: 40px;
+    }
+    #home .navbar .ul ul li{
+        padding-right: 5px;
+        padding-top:8px;
+    }
+    #home   .navbar .name{
+        font-size: 10px;
+    }
+    #home   .navbar{
+        width:95%;
+    }
+
+    #about{
+        margin-left:-40px;
+    }
+    #about , #about .img , #about .text {
+        width:100%;
+        float:none;
+    }
+    #about .text{
+        width:100%;
+        margin-top:40px;
+        left:-10px;
+    }
+
+    #about .text p{
+        width:150%;
+    }
+
+    #about .text .btn1{
+        width:30vw;
+        font-size: 12px;
+        padding: 5;
+        display: inline;
+    }
+    #about .text .btn2{
+        width:30vw;
+        font-size: 12px;
+        padding: 5;
+        position: absolute;
+    }
+    #about .text .peronalInfo{
+        width:75vw;
+    }
+    #about .text .peronalInfo ul li{
+        text-align: center;
+        width:45%;
+    }
+
+
+    #Contact .message{
+        padding-left:5px
+    }
+    #Contact .message ,
+    #Contact .message .inputName ,
+    #Contact .message .inputEmail,
+    #Contact .message .inputsubject,
+    #Contact .message .inputArea
+    {
+        width:100%;
+        display: inline-block;
+        padding: 5;
+        margin: 5;
+        float:none;
+    }
+    #feedback{
+        width:80%;
+    } 
+
+    #feedback .content .img{
+        width:100%;
+        float:none;
+    }
+    #feedback .content .info{
+        width:100%;
+        float:none !important; 
+    }
+
+    #Portfolio .images{
+        width:100%;
+    }
+    #Portfolio .images .portfolio{
+        width:100%;
+    }
+
+    #services .OurServices{
+        width:100%;
+    }
+    #services .OurServices h2{
+        font-size: 35px;
+    }
+    #services .services{
+        width:100%;
+    }
+
+    #services .services *{
+        width:100% !important;
+    }
+
+    #project {
+        width:100%;
+    }
+    #project .contain{
+        width:100%;
+    }
+
+    #project .contain .icon{
+        width:50%;
+    }
+    #project .contain .icon p{
+        width:150px;
+    }
+
+    #project .contain .icon .ico{
+        font-size: 30px;
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    #blog .posts .post,
+    #ourBacking .Bagels,
+    #ourBacking .Cookies,
+    #ourBacking .Cake{
+        width:50%;
+        text-align: center;
+    }
+
+    #home{
+        background-position: center;
+    }
+
+    #about {
+        width:100%;
+        position:relative;
+    }
+    #about .img{
+        width:40%;
+        left:-60px;
+    }
+
+    #about .text{
+        width:59%;
+        left:5px;
+    }
+
+    #about .text .peronalInfo hr{
+        width:80vw;
+        margin-left:-60px;
+    }
+    #about .text .peronalInfo{
+        margin-top:60px;
+        clear:both;
+        display: block;
+        width:100%;
+        margin-left:-30vw;
+    }
+
+    #about .text .peronalInfo ul{
+        width:700px;
+    }
+    #about .text button{
+        margin-left:-20vw;
+    }
+
+
+    #project{
+        width:100%;
+    }
+    #project .contain{
+        width:100%;
+    }
+
+    #project .icon{
+        width:30%;
+    }
+
+    #Contact .message ,#Contact .message textarea ,#Contact .message input ,.inputEmail{
+        width:100%;
+    }
+    
+
+    #services {
+
+        width: 100%;
+
+    }
+      
+    #services .services {
+        width: 100%;
+    }
+      
+    #services .services .service1,
+    #services .services .service2,
+    #services .services .service3,
+    #services .services .service4{
+
+    width: 50%;
+    }
+    
+    #Portfolio{
+        width:100%;
+    }
+
+    #Portfolio .images{
+        width:100%;
+        display: inline-block;
+        margin-left:20px;
+        
+    }
+
+    #Portfolio .images .portfolio{
+        width:47%;
+    }
+
+    #Portfolio .portfolio .images img{
+        width:100%;
+    }
+
+
+    #feedback{
+        width:85%;
+    }
+    #feedback .content{
+        width:100%;
+    }
+    #feedback .content .img{
+        width:40%;
+        float:left;
+    }
+    #feedback .content .img img{
+        width:80%;
+        top:-20px;
+        left:-20px;
+    }
+    #feedback .content .info{
+        width:60%;
+        float:right;
+        position: relative;
+        top:-20px;
+    }
+
+    #blog .posts .post iframe{
+        height: 140px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    #blog .posts .post,
+    #ourBacking .Bagels,
+    #ourBacking .Cookies,
+    #ourBacking .Cake{
+        width:33.3333%;
+    } 
+
+
+    #home{
+        background-position: center;
+    }
+
+    #about , #about .img , #about .text {
+        width:85%;
+    }
+    #about .text{
+
+        margin-top:40px;
+        left:-10px;
+    }
+
+    #about {
+        width:100%;
+        position:relative;
+    }
+    #about .img{
+        width:40%;
+        left:-60px;
+    }
+
+    #about .text{
+        width:59%;
+        left:5px;
+    }
+
+    #about .text .peronalInfo hr{
+        width:80vw;
+        margin-left:-60px;
+    }
+    #about .text .peronalInfo{
+        margin-top:60px;
+        clear:both;
+        display: block;
+        width:100%;
+        margin-left:-30vw;
+    }
+
+    #about .text .peronalInfo ul{
+        width:700px;
+    }
+    #about .text button{
+        margin-left:-20vw;
+    }
+
+    #Portfolio .images{
+        width:100%;
+        display: inline-block;
+    }
+    #Portfolio .images img{
+        width:45%;
+    }
+
+
+    #services .services{
+        width:100%;
+    }
+
+    #services .services .service1,
+    #services .services .service2,
+    #services .services .service3,
+    #services .services .service4{
+        width:50%
+    }
+
+    #Contact .message{
+        width:80vw;
+        margin:auto;
+    }
+
+}
+
+
