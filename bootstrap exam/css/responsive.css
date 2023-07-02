@@ -1,0 +1,402 @@
+@media (max-width: 575.98px) {
+    .container{
+        width:100%;
+    }
+    header nav .nav-item a{
+        font-size: 13px !important;
+    }
+    
+
+    #about img{
+        width:90%;
+        position: relative;
+        left:30px
+    }
+    #about .img::before{
+
+        bottom: -30px;
+        left: 0px;
+        width: 70%;
+        height: 80%;
+        z-index: -1; 
+    }
+
+
+    form{
+        width: 100% !important;
+    }
+
+    #Contact form input{
+        width:100% !important;
+        margin-top: 20px;
+    }
+
+    
+    .navbar-expand-md{
+        padding-top: 30px !important;
+    }
+    .navbar-expand-md .form-check span{
+        border-color:transparent !important;
+    }
+
+    :has(header nav .nav-item .active:not(.home)) .navbar-expand-md{
+        padding-top: 10px !important;
+    }
+    :has(header nav .nav-item .active:not(.home)) .navbar-expand-md i{
+        color:black !important;
+    }
+    
+    header nav .navbar-nav{
+        left:0 !important;
+        background-color: white;
+        width:0%;
+        /* top:-400px; */
+        text-align: center;
+        position:absolute;
+        display: none;
+        padding: 20px 0px;
+    }
+    header nav .navbar-nav li {
+        width:fit-content;
+        margin: auto;
+    }
+
+    :has(#navtoggle:checked) .navbar-nav{
+        display: unset;
+        width:100%;
+        animation-name: position;
+        animation-duration: 0.5s;
+        top:50px
+    }
+
+    :has(#navtoggle:checked) .collapse-navbar-collapse{
+        display: unset !important;
+        color:black !important;
+    }
+    :has(#navtoggle:checked) .collapse-navbar-collapse li a{
+        color:black !important;
+    }   
+
+    header nav .nav-item .active::after{
+        left:0px
+    }
+
+    @keyframes position {
+        0%{
+            top:-400px;
+        }
+        100%{
+            top:40px;
+        }
+    
+    }
+
+    @keyframes width {
+        0%{
+            width:0%;
+        }
+        100%{
+            width:100%;
+        }
+    }
+    .navToggle{
+        display: unset !important;
+    }
+
+
+    #Portfolio .row .img .layer{
+        width:92% !important;
+    }
+
+    header nav .nav-item .active::after{
+       left:0px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .container{
+        width:100% !important;
+        max-width: 90%;
+    }
+    #Contact form input{
+        width:100% !important;
+        margin-top: 20px;
+    }
+    
+    #about img{
+        position: relative;
+        left:15px
+    }
+    #about .img::before{
+        bottom: -30px;
+        left: -10px;
+        width: 70%;
+        height: 80%;
+        z-index: -1; 
+    }
+    
+    
+    .navbar-expand-md{
+        padding-top: 30px !important;
+    }
+    .navbar-expand-md .form-check span{
+        border-color:transparent !important;
+    }
+
+    :has(header nav .nav-item .active:not(.home)) .navbar-expand-md{
+        padding-top: 10px !important;
+    }
+    :has(header nav .nav-item .active:not(.home)) .navbar-expand-md i{
+        color:black !important;
+    }
+    
+    header nav .navbar-nav{
+        left:-40px !important;
+        background-color: white;
+        width:0%;
+        /* top:-400px; */
+        text-align: center;
+        position:absolute;
+        display: none;
+        padding: 20px 0px;
+    }
+    header nav .navbar-nav li {
+        width:fit-content;
+        margin: auto;
+    }
+
+    :has(#navtoggle:checked) .navbar-nav{
+        display: unset;
+        width:120%;
+        animation-name: position;
+        animation-duration: 0.5s;
+        top:50px;
+    }
+
+    header nav .nav-item .active::after{
+        left:0px !important;
+    }
+    :has(#navtoggle:checked) .collapse-navbar-collapse{
+        display: unset !important;
+        color:black !important;
+    }
+    :has(#navtoggle:checked) .collapse-navbar-collapse li a{
+        color:black !important;
+    }   
+
+    header nav .nav-item .active::after{
+        left:0px
+    }
+
+    @keyframes position {
+        0%{
+            top:-400px;
+        }
+        100%{
+            top:50px;
+        }
+    
+    }
+
+    @keyframes width {
+        0%{
+            width:0%;
+        }
+        100%{
+            width:100%;
+        }
+    }
+    .navToggle{
+        display: unset !important;
+    }
+    
+    :has(#navtoggle:checked) .navbar-nav {
+        display: unset;
+        width: 105vh !important;
+        animation-name: position;
+        animation-duration: 0.5s;
+        top: 50px;
+        left: -95px !important;
+    }
+
+    #Portfolio .row .img .layer{
+        width:91% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        width:100% !important;
+    }
+
+    #about .img{
+        text-align: center;
+        width:100%;
+    }
+
+    #about .img::before{
+        bottom: -30px;
+        left: -10px;
+        width: 85%;
+        height: 80%;
+        z-index: -1; 
+    }
+
+    #about img{
+        width:100% !important;
+    }
+
+    #home h1{
+        font-size:44px;
+    }
+
+    form{
+        width: 100% !important;
+    }
+
+    #Contact form input{
+        width:100% !important;
+        margin-top: 20px;
+    }
+
+    
+    .navbar-expand-md{
+        padding-top: 10px !important;
+    }
+
+
+    :has(header nav .nav-item .active:not(.home)) .navbar-expand-md{
+        padding-top: 10px !important;
+    }
+
+    
+    header nav .navbar-nav{
+        background-color: transparent;
+        position:unset;
+        display: unset;
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .navToggle{
+        display: none !important;
+    }
+
+    header nav .nav-item .active::after{
+        content: "";
+        position: absolute;
+        bottom: 8px;
+        left:7px !important;
+        width:80%;
+        height:2px;
+        background-color:white !important;
+        animation-name: width;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-direction: alternate;
+    }
+
+    @keyframes width {
+        0%{
+            width:0%;
+        }
+        100%{
+            width:100% !important;
+        }
+    }
+
+    #Portfolio .row .img .layer{
+        height: 95% !important;
+        width:90% !important;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .container{
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    #about .img{
+        width:100%;
+    }
+
+    header nav .nav-item a{
+        font-size: 14px !important;
+    }
+
+    
+    #about .img::before{
+        bottom: -30px;
+        left: 30px;
+        width: 85%;
+        height: 80%;
+        z-index: -1; 
+    }
+
+    #about img{
+        left:0% !important;
+    }
+
+    header{
+        width:100% ;
+    }
+
+
+    :has(header nav .nav-item .active.home) .navbar-expand-md{
+        margin-top: -20px;
+    }
+
+    #about img{
+        width:85% !important;
+        position: relative;
+        left:20px !important;
+    }
+
+    #Services p{
+        font-size: 14px !important;
+    }
+    
+
+    #Team{
+        padding: var(--main-padding);
+    }
+    
+
+    #Contact  .first{
+        width:85% !important;
+    }
+
+    #Contact form input{
+        width:49% !important;
+    }
+
+    header nav ul li{
+        padding-right: 15px;
+    }
+    #home h1{
+        font-size: 60px;
+        padding: 20px 0px;
+        font-weight: 200;
+    }
+
+    #Testimonials .info p {
+        width:75%;
+    }
+        
+    #Portfolio .row .img .layer{
+        width:90% !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 850% !important;
+        max-width: 85% !important;
+    }
+}   
+
+
