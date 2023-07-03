@@ -1,0 +1,336 @@
+@media (max-width: 575.98px) {
+    .navbar-toggler {
+        position: relative;
+        z-index: 600;
+    }
+    h1{
+        font-size: 48px;
+        padding-inline: 20px;
+    }
+    header .toggle .toggler{
+        position: relative;
+        color:white !important;
+    }
+    nav .container{
+        position: relative;
+    }
+
+    .collapse-navbar-collapse{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    .fa-xmark{
+        display: none;
+        opacity: 0;
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse{
+        width:100vw;
+        height:110vh;
+        visibility: visible;
+        opacity: 1;
+        background-color: rgba(128, 128, 128, 0.8);
+        padding: 60px 30px;
+        top:-10px;
+        left:-20px
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse ul{
+        background-color: white;
+        padding: 20px;
+        height:600px;
+    }
+    :has(.toggler:checked) .collapse-navbar-collapse ul li a{
+        color:blue !important;
+    }
+
+    :has(.toggler:checked) .fa-bars{
+        display: none;
+        opacity: 0;
+    }
+    :has(.toggler:checked) .fa-xmark{
+        display: unset;
+        opacity: 1;
+        left:-10px;
+        position: relative;
+        z-index: 9999;
+    }
+
+    :has(.toggler:checked) .to-top {
+        display: none;
+    }
+
+    .inner-dropdown-menu{
+        display: none;
+        opacity: 0;
+    }
+
+    #about .info{
+        padding-top: 20px;
+    }
+    #about .col-lg-6.col-sm-12:last-child{
+        padding-top: 40px;
+    }
+    #about .col-lg-6.col-sm-12:last-child h3{
+        font-size: 32px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    header .toggle .toggler{
+        position: relative;
+        color:white !important;
+    }
+    nav .container{
+        position: relative;
+        
+
+    }
+
+
+    .collapse-navbar-collapse{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    .fa-xmark{
+        display: none;
+        opacity: 0;
+        font-size: 30px;
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse{
+        width:170vw;
+        height:110vh;
+        visibility: visible;
+        opacity: 1;
+        background-color: rgba(128, 128, 128, 0.8);
+        padding: 60px 30px;
+        top:-10px;
+        right:-90px;
+
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse ul{
+        background-color: white;
+        padding: 20px;
+        height:600px;
+        width:50%;
+        /* left:-60%; */
+    }
+    :has(.toggler:checked) .collapse-navbar-collapse ul li a{
+        color:blue !important;
+    }
+
+    :has(.toggler:checked) .fa-bars{
+        display: none;
+        opacity: 0;
+    }
+    :has(.toggler:checked) .fa-xmark{
+        display: unset;
+        opacity: 1;
+        left:-10px;
+        position: relative;
+        z-index: 9999;
+    }
+
+    :has(.toggler:checked) .to-top {
+        display: none;
+    }
+    .inner-dropdown-menu{
+        display: none;
+        opacity: 0;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    #services .row .skill{
+        width:32%;
+    }
+    header .toggle .toggler{
+        position: relative;
+        color:white !important;
+    }
+    nav .container{
+        position: relative;
+    }
+
+
+    .collapse-navbar-collapse{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+    }
+    .fa-xmark{
+        display: none;
+        opacity: 0;
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse{
+        width:120vw;
+        height:110vh;
+        visibility: visible;
+        opacity: 1;
+        background-color: rgba(128, 128, 128, 0.8);
+        padding: 60px 30px;
+        top:-10px;
+        left:-40px
+    }
+
+    :has(.toggler:checked) .collapse-navbar-collapse ul{
+        background-color: white;
+        padding: 20px;
+        height:600px;
+        width:80%;
+        right:150px;
+        position: relative;
+    }
+    :has(.toggler:checked) .collapse-navbar-collapse ul li a{
+        color:blue !important;
+    }
+
+    :has(.toggler:checked) .fa-bars{
+        display: none;
+        opacity: 0;
+    }
+    :has(.toggler:checked) .fa-xmark{
+        display: unset;
+        opacity: 1;
+        left:-10px;
+        position: relative;
+        z-index: 9999;
+    }
+
+    :has(.toggler:checked) .to-top {
+        display: none;
+    }
+    .inner-dropdown-menu{
+        display: none;
+        opacity: 0;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .home-info h1{
+        font-size: 70px;
+    }
+    .home-info p{
+        font-size: 40px;
+    }
+    header nav .container .nav-item{
+        position: relative;
+    }
+    header nav .container ul .nav-item:after{
+        content: "";
+        background-color: white;
+        width:0%;
+        height:2px;
+        position: absolute;
+        margin-left:6px;
+        transition: 0.25s;
+    }
+
+    header .as-button{
+        font-size: 16px !important;
+        text-transform: uppercase;
+        position: relative;
+        top:8px;
+    }
+    .as-button{
+        font-weight: 600 !important;
+        position: relative;
+        align-self: center;
+    }
+    header nav .container ul .nav-item:hover:after{
+        width:60%
+    }
+    .drop-down-hover{
+        position: relative;
+    }
+    ul.inner-dropdown-menu{
+        position: absolute;
+        background-color: white;
+        padding-left:15px !important;
+        transition: opacity 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        width:180px;
+        padding: 10px 0px;
+    }
+
+    .drop-down-hover:hover ul.inner-dropdown-menu{
+        visibility: visible;
+        margin-top: 2.5px;
+        z-index: 1000;
+        opacity: 1;
+    }
+    header nav .container ul.inner-dropdown-menu li a{
+        color:black !important;
+        font-weight: 600;
+        font-size: 14px !important;
+        padding: 10px 0px !important;
+        font-weight: 600 !important;
+    }
+    li.btn-group.dropend{
+        position: relative;
+    }
+    .deep-dropdown-menu{
+        position: absolute;
+        left:135px;
+    }
+    .deep-dropdown-menu li{
+        opacity: 0;
+        background-color: white !important;
+        display: inline-block;
+        padding: 5px 10px 0px;
+        transition: opacity 0.25s;
+    }
+
+    li.btn-group.dropend:hover .deep-dropdown-menu li{
+        opacity: 1;
+    }
+
+    .fa-bars{
+        visibility: hidden;
+    }
+
+    .collapse-navbar-collapse{
+        visibility: visible;
+        opacity: 1;
+        position: relative !important;
+        margin-left: auto;
+    }
+
+    .inner-dropdown-menu{
+        display: unset;
+        opacity: 1;
+    }
+    #services .row .skill{
+        width:32%;
+    }
+    
+    #blog .card{
+        width:32%;
+        display: flex;
+    }
+    #blog .card-footer .clock .time{
+        position: relative;
+        top:2px;
+    }
+
+
+     .fa-xmark{
+        display: none;
+        opacity: 0;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+}   
