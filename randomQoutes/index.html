@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <title>Qoutes App</title>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+  <section class="d-flex justify-content-center flex-column pt-5">
+
+    <div class="text-center">
+
+      <h1>Quote of the Day</h1>
+      <p class="pt-3 pb-3">Press the button below to recieve a random quote!</p>
+  
+      <button onclick="qouteGen()" type="button" class="btn btn-dark" id="button">Generate Qoute</button>
+
+      <div class="qoute p-2" id="qouteDiv">
+        <p id="quote" class="pt-4 px-5"></p>
+        <small id="author" class="pt-4"></small>
+      </div>
+
+    </div>  
+    
+  </section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
+

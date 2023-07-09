@@ -1,0 +1,61 @@
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Impact";
+}
+
+
+p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+small{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+
+button{
+    width:250px;
+    height:80px;
+    background-color: blue;
+    color:white;
+
+}
+
+
+button:hover{
+    background-color: green;
+}
+
+.qoute{
+    width:fit-content;
+    margin: auto;
+    border: 1px dotted #09c;
+    border-width: 1px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;    
+    position: relative;
+    margin-top: 80px;
+    visibility: hidden;
+}
+
+.qoute::before{
+    content: "\f10d";
+    font: var(--fa-font-solid);
+    font-size: 60px;
+    position: absolute;
+    top:-30px;
+    left:-10px;
+    color:#09c;
+
+}
+.qoute::after{
+    content: "\f10e";
+    font: var(--fa-font-solid);
+    font-size: 60px;
+    position: absolute;
+    bottom:-30px;
+    right:-10px;
+    color:#09c;
+}
